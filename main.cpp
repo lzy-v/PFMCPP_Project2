@@ -22,6 +22,9 @@ video: Chapter 2 - Part 3
  double: double-precision floating point, what is precision? decimals?
  void: emptiness, shunyat, very zen
  wchar_t: wide? i dont get it. more bytes?
+
+
+
  
 2) for each primitive type, write out 3 variable declarations inside the variableDeclaration() function on line 59.
     a) give each variable declaration an initial value
@@ -57,8 +60,26 @@ void variableDeclarations()
 {
     //example:
     int number = 2; //declaration of a variable named "number", that uses the primitive type 'int', and the variable's initial value is '2'
-    
 
+    bool upOrDown = True;
+    bool yesOrNo = False;
+    bool rightOrLeft = True;
+
+    char myName = "lzy";
+    char animal = "eagle";
+    char sport = "yoga";
+
+    int age = 104;
+    int month = 12;
+    int daysInYear = 360;
+
+    float distance = 3.6f;
+    float height = 50.4f;
+    float weight = 32.3f;
+
+    double time = 1.53;
+    double guessDecimal = 0.43;
+    double pi = 3.14;
     
     ignoreUnused(number); //passing each variable declared to the ignoreUnused() function
 }
