@@ -65,9 +65,9 @@ void variableDeclarations()
     bool yesOrNo = False;
     bool rightOrLeft = True;
 
-    char myName = "lzy";
-    char animal = "eagle";
-    char sport = "yoga";
+    char myNameFirstChar = "l";
+    char animalFirstChar = "e";
+    char sportFirstChar = "y";
 
     int age = 104;
     int month = 12;
@@ -81,7 +81,22 @@ void variableDeclarations()
     double guessDecimal = 0.43;
     double pi = 3.14;
     
-    ignoreUnused(number); //passing each variable declared to the ignoreUnused() function
+    ignoreUnused(number
+                 upOrDown,
+                 yesOrNo,
+                 rightOrLeft,
+                 myNameFirstchar,
+                 animalFirstchar,
+                 sportFirstChar,
+                 age,
+                 month,
+                 daysInYear,
+                 distance,
+                 height,
+                 weight,
+                 time,
+                 guessDecimal,
+                 pi); //passing each variable declared to the ignoreUnused() function
 }
 
 /*
@@ -93,7 +108,7 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 { 
     ignoreUnused(rentalDuration, carType); //passing each function parameter to the ignoreUnused() function
     return {}; //if your function returns something other than void, add 'return {};' at the end of it.
-} 
+}
 
 /*
  1)
