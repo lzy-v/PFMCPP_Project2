@@ -15,16 +15,13 @@ video: Chapter 2 - Part 3
  
  
  1) Write down the names of all of the primitives available in C++ (excluding wchar_t) here: 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ bool: true or false
+ char: one byte
+ int: fits the compiler size for int
+ float: single-precision floating point, what is precision?
+ double: double-precision floating point, what is precision? decimals?
+ void: emptiness, shunyat, very zen
+ wchar_t: wide? i dont get it. more bytes?
  
 2) for each primitive type, write out 3 variable declarations inside the variableDeclaration() function on line 59.
     a) give each variable declaration an initial value
