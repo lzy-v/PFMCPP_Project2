@@ -113,10 +113,21 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 /*
  1)
  */
+ bool drinkTea(float waterTemperature, bool honey = 0, char timeOfDay = "am")
+ {
+   ignoreUnused(waterTemperature, honey, timeOfDay);
+   return {};
+ }
 
 /*
  2)
  */
+  int changeFrequency(bool freqChange, int endFreq)
+  {
+    ignoreUnused(freqChange, endFreq);
+    return {};
+  }
+ 
 
 /*
  3)
