@@ -182,14 +182,30 @@ bool flightOrFight(int risk, int reward)
 /*
  8)
  */
+ bool meditate(bool watchBreath, bool feelBody = True)
+ {
+   ignoreUnused(watchBreath, feelBody);
+   return {};
+ }
 
 /*
  9)
  */
+bool runWebSite(char siteName, int siteType = 1)
+{
+  ignoreUnused(siteName, siteType);
+  return {};
+}
+
 
 /*
  10)
  */
+ bool sitOrStand(int timeStanding, int timeSitting, bool tired = 0)
+ {
+   ignoreUnused(timeStanding, timeSitting, tired);
+   return {};
+ }
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
