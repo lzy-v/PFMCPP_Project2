@@ -77,9 +77,9 @@ void variableDeclarations()
     float height = 50.4f;
     float weight = 32.3f;
 
-    double time = 1.53;
-    double guessDecimal = 0.43;
-    double pi = 3.14;
+    double time = 1.531;
+    double guessDecimal = 0.433;
+    double pi = 3.14159;
     
     ignoreUnused(number
                  upOrDown,
