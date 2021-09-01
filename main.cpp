@@ -154,22 +154,30 @@ int predictWeather(int t1Weather, t2Weatherint)
 /*
  5)
  */
-bool flightOrFight(int risk, int reward);
+bool flightOrFight(int risk, int reward)
 {
   ignoreUnused(risk, reward);
   return {};
 
 }
 
-
 /*
  6)
  */
-
+ bool screenInvestment(int irr, int moic)
+ {
+   ignoreUnused(irr, moic);
+   return {};
+ }
 
 /*
  7)
  */
+ int investmentReturn(int cashFlow, int holdTime)
+ {
+   ignoreUnused(cashFlow, holdTime);
+   return {};
+ }
 
 /*
  8)
