@@ -133,7 +133,7 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
  */
  char findLetterInSoup(char targetLetter, int numberOfLetters)
  {
-   ignoreUnused(targetLetter, numberOfLetters)
+   ignoreUnused(targetLetter, numberOfLetters);
    return {};
  }
 
@@ -142,19 +142,30 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
  */
 char routeAudio(int rightChan = 1, int leftChan = 0)
 {
-  ignoreUnused(rightChan, leftChan)
+  ignoreUnused(rightChan, leftChan);
   return {};
 }
 
-
-
+int predictWeather(int t1Weather, t2Weatherint)
+{
+  ignoreUnused(t1Weather, t2Weatherint);
+  return {};
+}
 /*
  5)
  */
+bool flightOrFight(int risk, int reward);
+{
+  ignoreUnused(risk, reward);
+  return {};
+
+}
+
 
 /*
  6)
  */
+
 
 /*
  7)
