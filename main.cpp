@@ -146,10 +146,6 @@ char routeAudio(int rightChan = 1, int leftChan = 0)
   return {};
 }
 
-int predictWeather(int t1Weather, t2Weatherint)
-{
-  ignoreUnused(t1Weather, t2Weatherint);
-  return {};
 }
 /*
  5)
@@ -227,27 +223,40 @@ int main()
     auto carRented = rentACar(6, 2); 
     
     //1)
+    drinkTea(float waterTemperature, bool honey = 0, char timeOfDay = "am")
     
     //2)
+    int changeFrequency(bool freqChange, int endFreq)
     
     //3)
+    char findLetterInSoup(char targetLetter, int numberOfLetters)
     
     //4)
+    bool flightOrFight(int risk, int reward)
     
     //5)
+    bool flightOrFight(int risk, int reward)
     
     //6)
+    bool screenInvestment(int irr, int moic)
     
     //7)
+    int investmentReturn(int cashFlow, int holdTime)
     
     //8)
+    bool meditate(bool watchBreath, bool feelBody = True)
     
     //9)
+    bool runWebSite(char siteName, int siteType = 1)
     
     //10)
+    bool sitOrStand(int timeStanding, int timeSitting, bool tired = 0)
     
     
-    ignoreUnused(carRented);
+    ignoreUnused(carRented,
+                 [],
+                 );
+                 
     std::cout << "good to go!" << std::endl;
     return 0;    
 }
