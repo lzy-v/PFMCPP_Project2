@@ -128,14 +128,25 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
     return {};
   }
  
-
 /*
  3)
  */
+ char findLetterInSoup(char targetLetter, int numberOfLetters)
+ {
+   ignoreUnused(targetLetter, numberOfLetters)
+   return {};
+ }
 
 /*
  4)
  */
+char routeAudio(int rightChan = 1, int leftChan = 0)
+{
+  ignoreUnused(rightChan, leftChan)
+  return {};
+}
+
+
 
 /*
  5)
