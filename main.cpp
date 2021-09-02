@@ -63,7 +63,7 @@ void variableDeclarations()
 
     bool upOrDown = true;
     bool yesOrNo = false;
-    bool rightOrLeft = True;
+    bool rightOrLeft = true;
 
     char myNameFirstChar = "l";
     char animalFirstChar = "e";
