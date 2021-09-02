@@ -223,19 +223,19 @@ int main()
     auto carRented = rentACar(6, 2); 
     
     //1)
-    drinkTea(float waterTemperature, bool honey = 0, char timeOfDay = "am")
+    auto chai = drinkTea(88.93, 1);
     
     //2)
-    int changeFrequency(bool freqChange, int endFreq)
+    auto alienRadio = changeFrequency(1, 108);
     
     //3)
-    char findLetterInSoup(char targetLetter, int numberOfLetters)
+    auto pickNoodle = findLetterInSoup(l, 12);
     
     //4)
-    bool flightOrFight(int risk, int reward)
-    
+    char routeAudio(int rightChan = 1, int leftChan = 0)
+
     //5)
-    bool flightOrFight(int risk, int reward)
+    auto whatToDo = flightOrFight(5, 5);
     
     //6)
     bool screenInvestment(int irr, int moic)
@@ -254,9 +254,12 @@ int main()
     
     
     ignoreUnused(carRented,
-                 [],
+                 chai,
+                 alienRadio,
+                 pickNoodle,
+                 whatToDo,
                  );
-                 
+
     std::cout << "good to go!" << std::endl;
     return 0;    
 }
