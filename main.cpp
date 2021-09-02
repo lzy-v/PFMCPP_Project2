@@ -61,7 +61,7 @@ void variableDeclarations()
     //example:
     int number = 2; //declaration of a variable named "number", that uses the primitive type 'int', and the variable's initial value is '2'
 
-    bool upOrDown = True;
+    bool upOrDown = true;
     bool yesOrNo = False;
     bool rightOrLeft = True;
 
@@ -113,7 +113,7 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 /*
  1)
  */
- bool drinkTea(float waterTemperature, bool honey = 0, char timeOfDay = "am")
+ bool drinkTea(float waterTemperature, bool honey = 0, char timeOfDay = "a")
  {
    ignoreUnused(waterTemperature, honey, timeOfDay);
    return {};
