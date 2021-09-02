@@ -232,32 +232,38 @@ int main()
     auto pickNoodle = findLetterInSoup(l, 12);
     
     //4)
-    char routeAudio(int rightChan = 1, int leftChan = 0)
+    auto micToMixer = routeAudio();
 
     //5)
     auto whatToDo = flightOrFight(5, 5);
     
     //6)
-    bool screenInvestment(int irr, int moic)
+    auto investOrNot = screenInvestment(20, 2);
     
     //7)
-    int investmentReturn(int cashFlow, int holdTime)
+    auto calcReturn = investmentReturn(20, 2);
     
     //8)
-    bool meditate(bool watchBreath, bool feelBody = True)
+    auto zenMind = meditate(1);
     
     //9)
-    bool runWebSite(char siteName, int siteType = 1)
+    auto createSite = runWebSite(a);
     
     //10)
-    bool sitOrStand(int timeStanding, int timeSitting, bool tired = 0)
+    auto workPosture = sitOrStand(20, 20, 1);
     
     
     ignoreUnused(carRented,
                  chai,
                  alienRadio,
                  pickNoodle,
+                 micToMixer,
                  whatToDo,
+                 investOrNot,
+                 calcReturn,
+                 zenMind,
+                 createSite,
+                 workPosture
                  );
 
     std::cout << "good to go!" << std::endl;
