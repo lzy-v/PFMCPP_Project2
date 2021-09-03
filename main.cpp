@@ -61,13 +61,13 @@ void variableDeclarations()
     //example:
     int number = 2; //declaration of a variable named "number", that uses the primitive type 'int', and the variable's initial value is '2'
 
-    bool upOrDown = true;
-    bool yesOrNo = false;
-    bool rightOrLeft = true;
+    bool upOrDown = 1;
+    bool yesOrNo = 0;
+    bool rightOrLeft = 1;
 
-    char myNameFirstChar = "l";
-    char animalFirstChar = "e";
-    char sportFirstChar = "y";
+    char myNameFirstChar = 'l';
+    char animalFirstChar = 'e';
+    char sportFirstChar = 'y';
 
     int age = 104;
     int month = 12;
