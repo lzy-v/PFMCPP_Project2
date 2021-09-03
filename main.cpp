@@ -65,9 +65,9 @@ void variableDeclarations()
     bool yesOrNo = 0;
     bool rightOrLeft = 1;
 
-    char myNameFirstChar = 'l';
-    char animalFirstChar = 'e';
-    char sportFirstChar = 'y';
+    char NameChar = 7;
+    char animal = 5;
+    char sport = 4;
 
     int age = 104;
     int month = 12;
