@@ -65,7 +65,7 @@ void variableDeclarations()
     bool yesOrNo = 0;
     bool rightOrLeft = 1;
 
-    char NameChar = 7;
+    char name = 7;
     char animal = 5;
     char sport = 4;
 
@@ -85,9 +85,9 @@ void variableDeclarations()
                  upOrDown,
                  yesOrNo,
                  rightOrLeft,
-                 myNameFirstchar,
-                 animalFirstchar,
-                 sportFirstChar,
+                 name,
+                 animal,
+                 sport,
                  age,
                  month,
                  daysInYear,
