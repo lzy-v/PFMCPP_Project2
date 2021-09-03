@@ -61,9 +61,9 @@ void variableDeclarations()
     //example:
     int number = 2; //declaration of a variable named "number", that uses the primitive type 'int', and the variable's initial value is '2'
 
-    bool upOrDown = 1;
-    bool yesOrNo = 0;
-    bool rightOrLeft = 1;
+    bool upOrDown = true;
+    bool yesOrNo = false;
+    bool rightOrLeft = true;
 
     char name = 7;
     char animal = 5;
@@ -113,7 +113,7 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 /*
  1)
  */
- bool drinkTea(float waterTemperature, bool honey = 0, char timeOfDay = "a")
+ bool drinkTea(float waterTemperature, bool honey = 0, char timeOfDay = 'a')
  {
    ignoreUnused(waterTemperature, honey, timeOfDay);
    return {};
@@ -146,7 +146,6 @@ char routeAudio(int rightChan = 1, int leftChan = 0)
   return {};
 }
 
-}
 /*
  5)
  */
@@ -178,7 +177,7 @@ bool flightOrFight(int risk, int reward)
 /*
  8)
  */
- bool meditate(bool watchBreath, bool feelBody = True)
+ bool meditate(bool watchBreath, bool feelBody = true)
  {
    ignoreUnused(watchBreath, feelBody);
    return {};
@@ -247,7 +246,7 @@ int main()
     auto zenMind = meditate(1);
     
     //9)
-    auto createSite = runWebSite(a);
+    auto createSite = runWebSite('a');
     
     //10)
     auto workPosture = sitOrStand(20, 20, 1);
