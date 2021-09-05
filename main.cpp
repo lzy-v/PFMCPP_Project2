@@ -81,7 +81,7 @@ void variableDeclarations()
     double guessDecimal = 0.433;
     double pi = 3.14159;
     
-    ignoreUnused(number
+    ignoreUnused(number,
                  upOrDown,
                  yesOrNo,
                  rightOrLeft,
@@ -222,13 +222,13 @@ int main()
     auto carRented = rentACar(6, 2); 
     
     //1)
-    auto chai = drinkTea(88.93, 1);
+    auto chai = drinkTea(88.9f, 1);
     
     //2)
     auto alienRadio = changeFrequency(1, 108);
     
     //3)
-    auto pickNoodle = findLetterInSoup(l, 12);
+    auto pickNoodle = findLetterInSoup('l', 12);
     
     //4)
     auto micToMixer = routeAudio();
