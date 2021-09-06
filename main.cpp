@@ -15,16 +15,16 @@ video: Chapter 2 - Part 3
  
  
  1) Write down the names of all of the primitives available in C++ (excluding wchar_t) here: 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ bool: true or false
+ char: one byte
+ int: fits the compiler size for int
+ float: single-precision floating point, what is precision?
+ double: double-precision floating point, what is precision? decimals?
+ void: emptiness, shunyat, very zen
+ wchar_t: wide? i dont get it. more bytes?
+
+
+
  
 2) for each primitive type, write out 3 variable declarations inside the variableDeclaration() function on line 59.
     a) give each variable declaration an initial value
@@ -60,10 +60,43 @@ void variableDeclarations()
 {
     //example:
     int number = 2; //declaration of a variable named "number", that uses the primitive type 'int', and the variable's initial value is '2'
-    
 
+    bool upOrDown = true;
+    bool yesOrNo = false;
+    bool rightOrLeft = true;
+
+    char name = 7;
+    char animal = 5;
+    char sport = 4;
+
+    int age = 104;
+    int month = 12;
+    int daysInYear = 360;
+
+    float distance = 3.6f;
+    float height = 50.4f;
+    float weight = 32.3f;
+
+    double time = 1.531;
+    double guessDecimal = 0.433;
+    double pi = 3.14159;
     
-    ignoreUnused(number); //passing each variable declared to the ignoreUnused() function
+    ignoreUnused(number,
+                 upOrDown,
+                 yesOrNo,
+                 rightOrLeft,
+                 name,
+                 animal,
+                 sport,
+                 age,
+                 month,
+                 daysInYear,
+                 distance,
+                 height,
+                 weight,
+                 time,
+                 guessDecimal,
+                 pi); //passing each variable declared to the ignoreUnused() function
 }
 
 /*
@@ -75,47 +108,97 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 { 
     ignoreUnused(rentalDuration, carType); //passing each function parameter to the ignoreUnused() function
     return {}; //if your function returns something other than void, add 'return {};' at the end of it.
-} 
+}
 
 /*
  1)
  */
+bool drinkTea(float waterTemperature, bool honey = 0, char timeOfDay = 'a')
+{
+    ignoreUnused(waterTemperature, honey, timeOfDay);
+    return {};
+}
 
 /*
  2)
  */
-
+int changeFrequency(bool freqChange, int endFreq)
+{
+    ignoreUnused(freqChange, endFreq);
+    return {};
+}
+ 
 /*
  3)
  */
+char findLetterInSoup(char targetLetter, int numberOfLetters)
+{
+    ignoreUnused(targetLetter, numberOfLetters);
+    return {};
+}
 
 /*
  4)
  */
+char routeAudio(int rightChan = 1, int leftChan = 0)
+{
+    ignoreUnused(rightChan, leftChan);
+    return {};
+}
 
 /*
  5)
  */
+bool flightOrFight(int risk, int reward)
+{
+    ignoreUnused(risk, reward);
+    return {};
+}
 
 /*
  6)
  */
+bool screenInvestment(int irr, int moic)
+{
+    ignoreUnused(irr, moic);
+    return {};
+}
 
 /*
  7)
  */
+int investmentReturn(int cashFlow, int holdTime)
+{
+    ignoreUnused(cashFlow, holdTime);
+    return {};
+}
 
 /*
  8)
  */
+bool meditate(bool watchBreath, bool feelBody = true)
+{
+    ignoreUnused(watchBreath, feelBody);
+    return {};
+}
 
 /*
  9)
  */
+bool runWebSite(char siteName, int siteType = 1)
+{
+    ignoreUnused(siteName, siteType);
+    return {};
+}
 
 /*
  10)
  */
+bool sitOrStand(int timeStanding, int timeSitting, bool tired = 0)
+{
+    ignoreUnused(timeStanding, timeSitting, tired);
+    return {};
+}
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
@@ -137,27 +220,52 @@ int main()
     auto carRented = rentACar(6, 2); 
     
     //1)
+    auto chai = drinkTea(88.9f, 1);
     
     //2)
+    auto alienRadio = changeFrequency(1, 108);
     
     //3)
+    auto pickNoodle = findLetterInSoup('l', 12);
     
     //4)
-    
+    auto micToMixer = routeAudio();
+
     //5)
+    auto whatToDo = flightOrFight(5, 5);
     
     //6)
+    auto investOrNot = screenInvestment(20, 2);
     
     //7)
+    auto calcReturn = investmentReturn(20, 2);
     
     //8)
+    auto zenMind = meditate(1);
     
     //9)
+    auto createSite = runWebSite('a');
     
     //10)
+    auto workPosture = sitOrStand(20, 20, 1);
     
     
-    ignoreUnused(carRented);
+    ignoreUnused(carRented,
+                 chai,
+                 alienRadio,
+                 pickNoodle,
+                 micToMixer,
+                 whatToDo,
+                 investOrNot,
+                 calcReturn,
+                 zenMind,
+                 createSite,
+                 workPosture
+                 );
+
     std::cout << "good to go!" << std::endl;
     return 0;    
 }
+
+/*
+*/
