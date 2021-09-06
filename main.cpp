@@ -113,29 +113,29 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 /*
  1)
  */
- bool drinkTea(float waterTemperature, bool honey = 0, char timeOfDay = 'a')
- {
-   ignoreUnused(waterTemperature, honey, timeOfDay);
-   return {};
- }
+bool drinkTea(float waterTemperature, bool honey = 0, char timeOfDay = 'a')
+{
+  ignoreUnused(waterTemperature, honey, timeOfDay);
+  return {};
+}
 
 /*
  2)
  */
-  int changeFrequency(bool freqChange, int endFreq)
-  {
-    ignoreUnused(freqChange, endFreq);
-    return {};
-  }
+int changeFrequency(bool freqChange, int endFreq)
+{
+  ignoreUnused(freqChange, endFreq);
+  return {};
+}
  
 /*
  3)
  */
- char findLetterInSoup(char targetLetter, int numberOfLetters)
- {
-   ignoreUnused(targetLetter, numberOfLetters);
-   return {};
- }
+char findLetterInSoup(char targetLetter, int numberOfLetters)
+{
+  ignoreUnused(targetLetter, numberOfLetters);
+  return {};
+}
 
 /*
  4)
@@ -159,29 +159,29 @@ bool flightOrFight(int risk, int reward)
 /*
  6)
  */
- bool screenInvestment(int irr, int moic)
- {
-   ignoreUnused(irr, moic);
-   return {};
- }
+bool screenInvestment(int irr, int moic)
+{
+  ignoreUnused(irr, moic);
+  return {};
+}
 
 /*
  7)
  */
- int investmentReturn(int cashFlow, int holdTime)
- {
-   ignoreUnused(cashFlow, holdTime);
-   return {};
- }
+int investmentReturn(int cashFlow, int holdTime)
+{
+  ignoreUnused(cashFlow, holdTime);
+  return {};
+}
 
 /*
  8)
  */
- bool meditate(bool watchBreath, bool feelBody = true)
- {
-   ignoreUnused(watchBreath, feelBody);
-   return {};
- }
+bool meditate(bool watchBreath, bool feelBody = true)
+{
+  ignoreUnused(watchBreath, feelBody);
+  return {};
+}
 
 /*
  9)
@@ -196,11 +196,11 @@ bool runWebSite(char siteName, int siteType = 1)
 /*
  10)
  */
- bool sitOrStand(int timeStanding, int timeSitting, bool tired = 0)
- {
-   ignoreUnused(timeStanding, timeSitting, tired);
-   return {};
- }
+bool sitOrStand(int timeStanding, int timeSitting, bool tired = 0)
+{
+  ignoreUnused(timeStanding, timeSitting, tired);
+  return {};
+}
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
