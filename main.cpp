@@ -115,8 +115,8 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
  */
 bool drinkTea(float waterTemperature, bool honey = 0, char timeOfDay = 'a')
 {
-  ignoreUnused(waterTemperature, honey, timeOfDay);
-  return {};
+    ignoreUnused(waterTemperature, honey, timeOfDay);
+    return {};
 }
 
 /*
@@ -124,8 +124,8 @@ bool drinkTea(float waterTemperature, bool honey = 0, char timeOfDay = 'a')
  */
 int changeFrequency(bool freqChange, int endFreq)
 {
-  ignoreUnused(freqChange, endFreq);
-  return {};
+    ignoreUnused(freqChange, endFreq);
+    return {};
 }
  
 /*
@@ -133,8 +133,8 @@ int changeFrequency(bool freqChange, int endFreq)
  */
 char findLetterInSoup(char targetLetter, int numberOfLetters)
 {
-  ignoreUnused(targetLetter, numberOfLetters);
-  return {};
+    ignoreUnused(targetLetter, numberOfLetters);
+    return {};
 }
 
 /*
@@ -142,8 +142,8 @@ char findLetterInSoup(char targetLetter, int numberOfLetters)
  */
 char routeAudio(int rightChan = 1, int leftChan = 0)
 {
-  ignoreUnused(rightChan, leftChan);
-  return {};
+    ignoreUnused(rightChan, leftChan);
+    return {};
 }
 
 /*
@@ -151,9 +151,8 @@ char routeAudio(int rightChan = 1, int leftChan = 0)
  */
 bool flightOrFight(int risk, int reward)
 {
-  ignoreUnused(risk, reward);
-  return {};
-
+    ignoreUnused(risk, reward);
+    return {};
 }
 
 /*
@@ -161,8 +160,8 @@ bool flightOrFight(int risk, int reward)
  */
 bool screenInvestment(int irr, int moic)
 {
-  ignoreUnused(irr, moic);
-  return {};
+    ignoreUnused(irr, moic);
+    return {};
 }
 
 /*
@@ -170,8 +169,8 @@ bool screenInvestment(int irr, int moic)
  */
 int investmentReturn(int cashFlow, int holdTime)
 {
-  ignoreUnused(cashFlow, holdTime);
-  return {};
+    ignoreUnused(cashFlow, holdTime);
+    return {};
 }
 
 /*
@@ -179,8 +178,8 @@ int investmentReturn(int cashFlow, int holdTime)
  */
 bool meditate(bool watchBreath, bool feelBody = true)
 {
-  ignoreUnused(watchBreath, feelBody);
-  return {};
+    ignoreUnused(watchBreath, feelBody);
+    return {};
 }
 
 /*
@@ -188,18 +187,17 @@ bool meditate(bool watchBreath, bool feelBody = true)
  */
 bool runWebSite(char siteName, int siteType = 1)
 {
-  ignoreUnused(siteName, siteType);
-  return {};
+    ignoreUnused(siteName, siteType);
+    return {};
 }
-
 
 /*
  10)
  */
 bool sitOrStand(int timeStanding, int timeSitting, bool tired = 0)
 {
-  ignoreUnused(timeStanding, timeSitting, tired);
-  return {};
+    ignoreUnused(timeStanding, timeSitting, tired);
+    return {};
 }
 
 /*
